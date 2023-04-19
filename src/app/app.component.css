@@ -1,0 +1,17 @@
+.generalContenido{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+    grid-template-areas: "app-menu app-contenido-general";
+}
+.app-menu{
+    background-color: azure;
+}
+.app-contenido-general{
+    background-color: antiquewhite;
+
+}
+.app-toolbar{
+    background-color: darkseagreen;
+}
